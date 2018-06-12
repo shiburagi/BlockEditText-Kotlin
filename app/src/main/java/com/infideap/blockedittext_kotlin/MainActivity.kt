@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         icNumberEditText.setLengthAt(1, 2)
         icNumberEditText.setLengthAt(2, 4)
 
+
         icNumberEditText.setSelection(0)
 
     }
