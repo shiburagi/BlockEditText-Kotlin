@@ -1,4 +1,4 @@
-# Block-EditText-Kotlin
+# BlockEditText-Kotlin
 
 [ ![Download](https://api.bintray.com/packages/infideap2/Block-EditText/com.infideap.blockedittext/images/download.svg) ](https://bintray.com/infideap2/Block-EditText/com.infideap.blockedittext/_latestVersion)
 
@@ -99,6 +99,9 @@ amexEditText.setSeparatorTextAppearance(android.support.v7.appcompat.R.style.Bas
 amexEditText.setEdiTextBackground(ContextCompat.getDrawable(this, R.drawable.selector_edittext_round_border_line));
 
 amexEditText.setSelection(0);
+
+amexEditText.addCardPrefix(CardPrefix.amex(this))
+
 
 ```
 
