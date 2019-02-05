@@ -24,14 +24,14 @@ a dependency:
 <dependency>
   <groupId>com.infideap.blockedittext</groupId>
   <artifactId>block-edittext</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <type>pom</type>
 </dependency>
 ```
 #### Gradle
 ```groovy
 dependencies {
-   implementation 'com.infideap.blockedittext:block-edittext:0.1.1'
+   implementation 'com.infideap.blockedittext:block-edittext:0.1.2'
 }
 ```
 
@@ -106,6 +106,7 @@ amexEditText.setSeparatorTextAppearance(android.support.v7.appcompat.R.style.Bas
 amexEditText.setEdiTextBackground(ContextCompat.getDrawable(this, R.drawable.selector_edittext_round_border_line));
 
 amexEditText.setSelection(0);
+amexEditText.setShiftPosition(true);
 
 amexEditText.addCardPrefix(CardPrefix.amex(this))
 amexEditText.addCardPrefix(CardPrefix.amex(this))
